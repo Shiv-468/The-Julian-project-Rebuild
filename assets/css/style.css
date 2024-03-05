@@ -32,18 +32,16 @@
     background: transparent;
     padding: 12px 24px;
     border: none;
-    border-radius: 3px;
+    border-radius: 2px;
     transition: all 500ms linear;
-    border-bottom: 1px solid transparent;
 }
 
 .BTN-b::before {
     content: "";
     position: absolute;
     inset: 0;
-    bottom: -1px !important;
-    border-radius: 3px;
-    padding: 0 0 1px 0;
+    border-radius: 2px;
+    padding: 0 0 1px 0 !important;
     background: linear-gradient(146.79deg, #F4EAD8 0%, #E0B764 100%);
     -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
@@ -460,7 +458,6 @@
 
 .prize_card {
     padding: 24px;
-    border: 1px solid transparent;
     border-radius: 24px;
     position: relative;
     background-color: var(--bg-light-gold) !important;
