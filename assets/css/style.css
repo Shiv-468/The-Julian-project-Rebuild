@@ -31,7 +31,7 @@
     position: relative;
     background: transparent;
     padding: 12px 24px;
-    border: none;
+    border: 0 !important;
     border-radius: 2px;
     transition: all 500ms linear;
 }
