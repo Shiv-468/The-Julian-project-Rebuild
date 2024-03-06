@@ -918,10 +918,6 @@
     margin-bottom: 12px;
 }
 
-.tracking-content2 {
-    border-bottom: 1px solid var(--tracking-border);
-}
-
 .tracking-item2 .tracking-content2 span {
     display: block;
 }
