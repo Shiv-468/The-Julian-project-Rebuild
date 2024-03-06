@@ -24,7 +24,7 @@
     --fs-4xl:32px;
     --fs-5xl:32px;
     --fs-6xl:42px;
-    --fs-7xl:64px;
+    --fs-7xl:45px;
     /* background-color */
     --bg-black:#000000;
     --bg-gray:#B0AEAC;
@@ -74,6 +74,9 @@
 }
 .fs-6xl{
     font-size: var(--fs-6xl);
+}
+.fs-7xl{
+    font-size: var(--fs-7xl);
 }
 .bg-black{
     background: var(--bg-black);
