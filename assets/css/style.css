@@ -507,6 +507,9 @@
 .prize_card:hover {
     background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%) border-box;
 }
+.prize_card:hover.prize_card::before{
+    padding: 0 !important;
+}
 
 .right-Arrow {
     width: 40px;
